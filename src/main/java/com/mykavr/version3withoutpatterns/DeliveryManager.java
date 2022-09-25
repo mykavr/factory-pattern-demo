@@ -1,7 +1,6 @@
 package com.mykavr.version3withoutpatterns;
 
 public class DeliveryManager {
-    // con
     private Parcel parcel;
 
     DeliveryManager(Parcel parcel) {
