@@ -6,7 +6,7 @@ public class NovaPoshtaDeliveryManager extends DeliveryManager {
     }
 
     @Override
-    protected Delivery getDelivery(Parcel parcel) {
+    protected Delivery getDelivery() {
         return new NovaPoshtaDelivery(
                 parcel.getContent(),
                 parcel.getRecipientName(),

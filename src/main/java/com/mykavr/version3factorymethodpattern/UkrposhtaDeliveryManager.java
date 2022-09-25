@@ -6,7 +6,7 @@ public class UkrposhtaDeliveryManager extends DeliveryManager {
     }
 
     @Override
-    protected Delivery getDelivery(Parcel parcel) {
+    protected Delivery getDelivery() {
         return new UkrposhtaDelivery(
                 parcel.getCountry(),
                 parcel.getPostalCode(),
